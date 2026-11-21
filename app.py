@@ -3,8 +3,8 @@ import ollama
 import requests
 
 # --- TELEGRAM SETUP ---
-TELEGRAM_BOT_TOKEN = '8876623929:AAEuHDk7YScCgD63pH2DLXviAnDKWMyC440'
-TELEGRAM_CHAT_ID = '7547542403'
+TELEGRAM_BOT_TOKEN = 'Secret'
+TELEGRAM_CHAT_ID = 'Secret'
 
 def send_telegram_alert(message_body):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
